@@ -15,3 +15,66 @@ body {
   background-attachment: fixed;
   background-size: 400px 400px, contain;
 }
+nav {
+  margin: 13px auto;
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  justify-content: space-between;
+  z-index: 10;
+}
+.nav-name {
+  padding: 5px 150px 5px 120px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-name span {
+  color: #d31b27;
+}
+.nav-item {
+  display: flex;
+}
+.nav-item ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  align-items: center;
+}
+.nav-item li {
+  font-family: "Montserrat", sans-serif;
+  padding: 13px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+.nav-item li:first-child {
+  color: #d31b27;
+}
+.nav-search ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 50px;
+}
+.search-icon {
+  background-image: url(../Images/search_icon.svg);
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  width: 20px;
+  height: 30px;
+  margin: 5px 10px 0px 0px;
+  text-align: center;
+  align-items: center;
+}
+.bag-icon {
+  background-image: url(../Images/basket_icon.svg);
+   background-repeat: no-repeat;
+  width: 30px;
+  height: 50px;
+  margin: 17px 10px 0px 50px;
+  text-align: center;
+  align-items: center;
+}
