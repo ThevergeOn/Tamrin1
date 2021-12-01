@@ -81,3 +81,21 @@ nav {
 article {
   padding-left: 151px;
 }
+.main-contact {
+  margin-top: 100px;
+  border-left: 2px solid #d31b27;
+}
+.main-contact h1 {
+  font-family: serif;
+  padding-left: 20px;
+  font-size: 70px;
+}
+.h1 {
+  line-height: 50px;
+}
+.main-contact p {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-left: 40px;
+}
